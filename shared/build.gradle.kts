@@ -28,6 +28,10 @@ kotlin {
                 implementation(compose.material)
                 @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
                 implementation(compose.components.resources)
+                implementation("dev.icerock.moko:mvvm-compose:0.16.1")
+
+                implementation("co.touchlab:kermit:2.0.0-RC4")
+
             }
         }
         val androidMain by getting {
